@@ -31,7 +31,6 @@ class TableViewViewController: UIViewController {
             self.tableView.reloadData()
         }
     }
-
 }
 extension TableViewViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

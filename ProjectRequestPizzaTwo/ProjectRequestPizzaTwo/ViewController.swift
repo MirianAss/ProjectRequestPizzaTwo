@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
     @IBAction func btStart(_ sender: Any) {
         
         if let screen = self.storyboard?.instantiateViewController(withIdentifier: "navigation") {

@@ -10,11 +10,11 @@ import UIKit
 class ScreenRatingViewController: UIViewController {
     
     var rating: PizzaElement?
-
+    
     @IBOutlet weak var lblText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         lblText.text = "Segundo nossos clientes, a pizza de \(rating?.name ?? "") está na posição - \(rating?.rating ?? 0)/5 - de aprovação"
     }
     
