@@ -18,6 +18,7 @@ class TableViewViewController: UIViewController {
         super.viewDidLoad()
 
         requestPizza()
+        tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: "PizzaTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
     }
@@ -47,4 +48,13 @@ extension TableViewViewController: UITableViewDataSource {
         return UITableViewCell() 
     }
 }
-
+extension TableViewViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let screen = self.storyboard?.instantiateViewController(withIdentifier: "rating") as? ScreenRatingViewController {
+            
+            screen.rating = arrayPizza?[indexPath.row]
+            
+            self.navigationController?.pushViewController(screen, animated: true)
+        }
+    }
+}

@@ -17,6 +17,7 @@
 		3A78F7F629C39DB200C02C43 /* PizzaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F7F429C39DB100C02C43 /* PizzaTableViewCell.swift */; };
 		3A78F7F729C39DB200C02C43 /* PizzaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A78F7F529C39DB200C02C43 /* PizzaTableViewCell.xib */; };
 		3A78F7F929C3A3E200C02C43 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F7F829C3A3E200C02C43 /* Pizza.swift */; };
+		3A78F7FB29C3B30A00C02C43 /* ScreenRatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A78F7FA29C3B30A00C02C43 /* ScreenRatingViewController.swift */; };
 		F52980626F570074C484E05D /* Pods_ProjectRequestPizzaTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74ECFA345E1F0920A6188F5 /* Pods_ProjectRequestPizzaTwo.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		3A78F7F429C39DB100C02C43 /* PizzaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTableViewCell.swift; sourceTree = "<group>"; };
 		3A78F7F529C39DB200C02C43 /* PizzaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PizzaTableViewCell.xib; sourceTree = "<group>"; };
 		3A78F7F829C3A3E200C02C43 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		3A78F7FA29C3B30A00C02C43 /* ScreenRatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRatingViewController.swift; sourceTree = "<group>"; };
 		D74ECFA345E1F0920A6188F5 /* Pods_ProjectRequestPizzaTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectRequestPizzaTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63D5159B53263912779D392 /* Pods-ProjectRequestPizzaTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRequestPizzaTwo.release.xcconfig"; path = "Target Support Files/Pods-ProjectRequestPizzaTwo/Pods-ProjectRequestPizzaTwo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 				3A78F7F529C39DB200C02C43 /* PizzaTableViewCell.xib */,
 				3A78F7E229C3996400C02C43 /* ViewController.swift */,
 				3A78F7F229C39C3D00C02C43 /* TableViewViewController.swift */,
+				3A78F7FA29C3B30A00C02C43 /* ScreenRatingViewController.swift */,
 				3A78F7E729C3996600C02C43 /* Assets.xcassets */,
 				3A78F7E929C3996600C02C43 /* LaunchScreen.storyboard */,
 				3A78F7EC29C3996600C02C43 /* Info.plist */,
@@ -223,6 +226,7 @@
 				3A78F7DF29C3996400C02C43 /* AppDelegate.swift in Sources */,
 				3A78F7F929C3A3E200C02C43 /* Pizza.swift in Sources */,
 				3A78F7F329C39C3D00C02C43 /* TableViewViewController.swift in Sources */,
+				3A78F7FB29C3B30A00C02C43 /* ScreenRatingViewController.swift in Sources */,
 				3A78F7F629C39DB200C02C43 /* PizzaTableViewCell.swift in Sources */,
 				3A78F7E129C3996400C02C43 /* SceneDelegate.swift in Sources */,
 			);
