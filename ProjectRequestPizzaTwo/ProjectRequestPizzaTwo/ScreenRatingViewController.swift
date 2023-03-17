@@ -23,6 +23,11 @@ class ScreenRatingViewController: UIViewController {
     }
     
     @IBAction func btAdvance(_ sender: Any) {
-//        if let screen = self.storyboard?.instantiateViewController(withIdentifier: "")
+        if let screen = self.storyboard?.instantiateViewController(withIdentifier: "value") as? ScreenValueViewController {
+            
+            screen.value = rating.self
+            
+            self.navigationController?.pushViewController(screen, animated: true)
+        }
     }
 }
